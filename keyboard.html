@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="keyboard.css" type="text/css" />
+        
+        <!--- jQuery & JS Scripts --->
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+        <script type="text/javascript" src="touchKeyboard.js"></script>
+    </head>
+    <body>
+        <div class="keyboard">
+            <div class="key-row">
+                <button class="key" id="key-1" value="1" data-l1="A" data-l2="B" data-l3="C">ABC</button>
+                <button class="key" id="key-2" value="2" data-l1="D" data-l2="E" data-l3="F">DEF</button>
+                <button class="key" id="key-3" value="3" data-l1="G" data-l2="H" data-l3="I">GHI</button>
+            </div>
+            <div class="key-row">
+                <button class="key" id="key-4" value="4" data-l1="J" data-l2="K" data-l3="L">JKL</button>
+                <button class="key" id="key-5" value="5" data-l1="M" data-l2="N" data-l3="O">MNO</button>
+                <button class="key" id="key-6" value="6" data-l1="P" data-l2="Q" data-l3="R">PQR</button>
+            </div>
+            <div class="key-row">
+                <button class="key" id="key-7" value="7" data-l1="S" data-l2="T" data-l3="U">STU</button>
+                <button class="key" id="key-8" value="8" data-l1="V" data-l2="W" data-l3="X">VWX</button>
+                <button class="key" id="key-9" value="9" data-l1="Y" data-l2="Z" data-l3="&">YZ&amp;</button>
+            </div>
+            <div class="Key-row">
+                <button id="keyboard-letter" class="bKey">ADD LETTER</button>
+                <button id="keyboard-submit" class="bKey">SUBMIT</button>
+            </div>
+        </div>
+        <input type="text" id="initials" placeholder="SAVE YOUR SCORE" maxlength="3" /><button id="keyboard-clear">X</button>
+    </body>
+</html>
