@@ -1,0 +1,2 @@
+# touchKeyboard.js
+I created this code for the touchscreen museum interactives I've built while working at Museum Arts. It works similar to older telephone keypads with three letters assigned to each digit. Clicking a button more than once changes the letter option and click "Add Letter" adds it to the field. This code also includes a code that prohibits the user from entering banned words. This script requires jQuery.
